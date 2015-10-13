@@ -366,7 +366,7 @@ body {
 
 .wrap {
   margin: 0 1em;
-  max-width: 850px; }
+  max-width: 800px; }
   .wrap h1, .wrap h2, .wrap h3 {
     color: #775100; }
   .wrap p {
@@ -388,7 +388,7 @@ body {
     .wrap .ul--main li {
       margin: 1em 0;
       list-style-type: none; }
-  @media screen and (min-width: 850px) {
+  @media screen and (min-width: 800px) {
     .wrap {
       margin: 0 auto; }
       .wrap h1, .wrap h2 {
