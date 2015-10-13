@@ -1,0 +1,52 @@
+body{
+  background:$back;
+  color:$text;
+  font-family: $font;
+  font-size: 1.5em;
+  }
+.wrap{
+  margin:0 1em;
+  max-width: $width;
+  h1,h2,h3{
+    color:$link-color;
+    }
+  p{
+    line-height: 2em;
+    margin:2em 0;
+    }
+  a{
+    text-decoration: none;
+    color:$link-color;
+    &:hover{
+      color:$text;
+    }
+  }
+  .img--header{
+    width:100%;
+    display:block
+    }
+  .img--article{
+    width:100%;
+    }
+  .ul--main{
+    margin:0 0 2em 0;
+    padding:0;
+    li{
+      margin:1em 0;
+      list-style-type: none;
+      }
+    }
+  @media screen and (min-width:$width){
+    margin: 0 auto;
+    h1,h2{
+      color:$link-color;
+      }
+    p{
+      line-height: 2em;
+      margin:2em 0;
+      }
+    img{
+      width:100%;
+      }
+    }
+  }

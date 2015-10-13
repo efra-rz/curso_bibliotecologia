@@ -1,0 +1,12 @@
+//Normalize & Google Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,600);
+@import "https://d389brn580dqai.cloudfront.net/105457/2176AB48ADCDF31FC.css";
+@import 'lib/normalize';
+
+//Variables
+$font: 'Mercury SSm A', sans-serif;;
+$back: #F8F8F8;
+$text: #492C22;
+$link-color: #775100;
+$width: 700px;
+@import 'theme/main';
