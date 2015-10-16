@@ -362,7 +362,7 @@ body {
   background: #F8F8F8;
   color: #492C22;
   font-family: "Mercury SSm A", sans-serif;
-  font-size: 1.5em; }
+  font-size: 1.3em; }
 
 .wrap {
   margin: 0 1em;
@@ -398,5 +398,9 @@ body {
         margin: 2em 0; }
       .wrap img {
         width: 100%; } }
+  @media screen and (max-width: 500px) {
+    .wrap p {
+      line-height: 1.8em;
+      margin: 1.7em 0; } }
 
 /*# sourceMappingURL=style.css.map */

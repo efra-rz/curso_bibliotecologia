@@ -2,7 +2,7 @@ body{
   background:$back;
   color:$text;
   font-family: $font;
-  font-size: 1.5em;
+  font-size: 1.3em;
   }
 .wrap{
   margin:0 1em;
@@ -49,4 +49,12 @@ body{
       width:100%;
       }
     }
+
+    @media screen and (max-width:500px){
+      p{
+        line-height: 1.8em;
+        margin:1.7em 0;
+        }
+      }
+
   }
